@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class component with decorator 1`] = `
+"import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
+
+@Component
+class Logo extends Vue {
+  render() {
+    return <div class=\\"VueToNuxtLogo\\">
+        <div class=\\"Triangle Triangle--one\\" />
+      </div>;
+  }
+
+}
+
+var __component__ = Logo;
+export default __component__;
+
+if (module.hot) {
+  var options = typeof __component__ === 'function' ? __component__.options : __component__;
+
+  var api = require('vue-hot-reload-api');
+
+  api.install(require('vue'));
+
+  if (api.compatible) {
+    module.hot.accept();
+
+    if (!module.hot.data) {
+      api.createRecord('48ed69eb', options);
+    } else {
+      api.reload('48ed69eb', options);
+    }
+  }
+}"
+`;
+
+exports[`object component 1`] = `
+"import Vue from 'vue';
+var __component__ = {
+  render() {
+    return <div class=\\"VueToNuxtLogo\\">
+        <div class=\\"Triangle Triangle--one\\" />
+      </div>;
+  }
+
+};
+export default __component__;
+
+if (module.hot) {
+  var options = typeof __component__ === 'function' ? __component__.options : __component__;
+
+  var api = require('vue-hot-reload-api');
+
+  api.install(require('vue'));
+
+  if (api.compatible) {
+    module.hot.accept();
+
+    if (!module.hot.data) {
+      api.createRecord('61ebb64a', options);
+    } else {
+      api.reload('61ebb64a', options);
+    }
+  }
+}"
+`;
+
+exports[`object component 2`] = `
+"import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
+export default @Component
+class Logo extends Vue {
+  render1() {
+    return <div class=\\"VueToNuxtLogo\\">
+        <div class=\\"Triangle Triangle--one\\" />
+      </div>;
+  }
+
+}"
+`;

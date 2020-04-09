@@ -4,18 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/preset-typescript": "^7.8.3"
+    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "hash-sum": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-decorators": "^7.8.3"
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-syntax-typescript": "^7.8.3",
+    "@babel/preset-typescript": "^7.9.0",
+    "@nuxt/babel-preset-app": "^2.12.2",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.3.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-property-decorator": "^8.4.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

@@ -1,0 +1,15 @@
+{
+    // "presets": [
+    //     "@nuxt/babel-preset-app"
+    // ],
+    "plugins": [
+        ["@babel/plugin-syntax-typescript", {
+            "isTSX": true
+        }],
+        ["@babel/plugin-syntax-decorators", {
+            "decoratorsBeforeExport": true
+        }],
+        "./index.js"
+    ]
+}
+  
