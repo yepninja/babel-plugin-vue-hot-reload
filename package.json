@@ -27,6 +27,6 @@
     "vue-hot-reload-api": "^2.3.4",
     "vue-property-decorator": "^8.4.1",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
